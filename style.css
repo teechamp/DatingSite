@@ -1,0 +1,36 @@
+
+
+ body{
+     width: 720px;
+     margin:auto;
+     
+    }
+
+    textarea{
+        text-align: right top;
+        width:360px;
+        height:50px;
+    }
+
+    div label{
+        width: 180px;
+        text-align: ;
+        display: inline-block;
+        width: auto;
+    }
+     
+
+    fieldset{
+        background: lightyellow;
+        border:10px solid yellow;
+        margin-bottom: 10px;
+        width: 720px;
+     }
+
+     label, input, textarea{
+         transition: width 500ms, height 500ms, transform 500ms;
+     }
+     label:hover, input:hover{
+         transform: scale(1,2);
+     }
+     

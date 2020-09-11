@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome To Our Dating Site</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="container">
+        <h2>Please Enter Your Details For Our Dating Website!</h2>
+        <form action="/self" method="post" enctype="multipart/form-data">
+
+        <fieldset class="firstbox">
+            <legend>Your Face</legend>
+        <div class="form-row">
+            <label for="Your Image">Your Image</label>
+            <input type="text" id ="Your image" autofocus placeholder="choose file">no file chosen
+        </div>
+        <div>
+            <div class="form-row">
+                <label for="Image Preview">Image preview</label>
+        </div>
+
+        </fieldset>
+<fieldset>
+<legend>Your General details </legend>
+
+<div class="form-row">
+<label for="">Name</label>
+<input type="text" id="name" placeholder="your fullname">
+</div>
+
+<div class="form-row">
+Gender:Male<input type="radio" value="male">female
+<input type="radio" name="" id="Female">
+</div>
+
+<div class="form-row">
+<label for="">Age</label>
+<input type="number" id="Age" placeholder="18">
+</div>
+
+<div class="form-row">
+    <label for="">Date of birth</label>
+    <input type="date" id="Date of birth" placeholder="44/mm/yyy">
+    </div>
+
+    <div class="form-row">
+        <label for="">favorite color</label>
+        <input type="color" id="favorite color">
+        </div>
+
+        <div>
+            <label for="Country"> Country
+                <select name="Country" id="Country">
+                    <option selected value="no selection">No selection</option>
+                    <option selected value="Nigeria">Nigeria</option>
+                    <option selected value="USA">USA</option>
+                    <option selected value="Uk">UK</option>
+                    <option selected value="Arab">Arab</option>
+                    <option selected value="England">England</option>
+                    <option selected value="China">China</option>
+                 </select>
+                 </label>
+        </fieldset>
+
+        <fieldset>
+
+         <legend>Your indicators</legend>
+         <div class="form-row">
+         <label for="height"> height</label>
+         <input type="range" id="dob" min="0" max="100">
+         </div>
+
+         <div class="form-row">
+             <label for="Salary">Salary</label>
+             <input type="range" id="dob" min="0" max="100">
+            </div>
+        </fieldset>
+
+        <fieldset>
+
+            <legend>Your Contact Information</legend>
+            <div class="form-row">
+            <label for="Email">Email</label>
+            <input type="Email" id="Email" placeholder="example@gmail.com">
+            </div>
+
+            <div class="form-row">
+                <label for="Tel">Tel</label>
+                <input type="Tel" id="Tel">
+            </div>
+
+            <div class="form-row">
+                <label for="Address">Address</label>
+                <textarea number="Address" id="" cols="30" rows="10"></textarea>
+            </div>
+            <div class="form-row">
+                <label for="source">Method to contact you</label>
+                <input type="checkbox">
+                <label for="email">email</label>
+                <input type="checkbox">
+                <label for="Whatsapp">Whatsapp</label>
+                <input type="checkbox">
+                <label for="In app chat">In app chat</label>
+             </div>
+            </fieldset>
+            <input type="submit">
+            
+<script src="image.js"></script>
+</body>
+</html>
